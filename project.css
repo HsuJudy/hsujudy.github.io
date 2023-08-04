@@ -1,0 +1,27 @@
+#about{
+    height: 100vh;
+    font-size: 52px;
+    font-weight: 300;
+    padding-block: 2vh;
+    padding-inline: 5vw;
+}
+.project{
+    height: 100vh;
+    align-items: center;
+}
+
+.name{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.url{
+    display: block;
+    font-weight: 600;
+    text-decoration: underline dotted;
+    padding-block: 6vh;
+}
+
+.description{
+    padding-top: 3vh;
+}
