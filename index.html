@@ -2,7 +2,7 @@
 <html>
 	<head lang="en">
 		<meta charset="utf-8">
-		<title>My first three.js app</title>
+		<title>Judy Hsu</title>
 		<style>
 			body { margin: 0; }
 
@@ -10,75 +10,186 @@
 		
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 		<link rel='stylesheet' href="style.css">
-		<link rel='stylesheet' href="index.css">
+		<script src="https://kit.fontawesome.com/67c254210c.js" crossorigin="anonymous"></script>
+		<!-- <link rel='stylesheet' href="index.css"> -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+		
 	</head>
-	<body class="container">
-		<!-- <script type="module" src="/main.js"></script> -->
-		<!-- <script type="module" src="/main.js"></script> -->
-		<div class="navbar justify-content-between">
-			<a class="navbar-brand" href="">Judy Hsu</a>
-			<a href="./projects.html">Projects</a>
+
+	<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+		<a class="navbar-brand" href="#">Judy Hsu</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  <div class="navbar-nav">
+			<a class="nav-item nav-link active" href="#about">About <span class="sr-only"></span></a>
+			<a class="nav-item nav-link" href="#coding">Coding</a>
+			<a class="nav-item nav-link" href="#">Blog</a>
+			<!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+		  </div>
 		</div>
-		<div class='row' id="intro">
-			<div class="content row">
-				<div class="col" id="about"><br>Computer Science student with over three years of experience in software development, both as an independent developer and as a collaborative team member. My expertise lies in software, as well as the creation of data structures and algorithms. </div>
-				<div class="col">
-					<img id='profile-pic' src="./image/judy.jpg" style="width: 300px; height: 400px" alt="profile picture">
+	</nav>
+
+	
+	
+	<div class="main-page">
+		
+		<!-- <img class='img-fluid' src="./image/background.jpg" alt=""> -->
+
+		<div class="hero-area">
+			<div class="view bg-image" id="hero"></div>
+			<div id="hero"></div>
+			<div class="hero-text">
+				<div class="spacer"></div>
+				<div class="hero-text-line">
+					<h1>Hi I am Judy Hsu</h1>
 				</div>
-			</div>		
+				
+			</div>
 		</div>
 
-		<div class="view row" id="languages">
-			<div class="title">Languages</div>
-			<div class="col">
-				<div class="title-2">front end</div>
-				<br>
-				<div>html</div>
-				<div>css</div>
-				<div>javascript</div>
-				<div>react</div>
+	<div class="main">
+
+		
+		<div id="about" class="about">
+			<h1>About Me</h1>
+
+			<div class="about-info">
+				<div class="image-area p-2">
+					<img id='profile-pic' src="./image/judy.jpg" style="width: 300px; height: 400px" alt="profile picture">
+				</div>
+
+				<div class="about-text p-2">
+				<p>Welcome to my website portfolio! I'm thrilled to have you here.
+
+					I'm currently a third-year Computer Science student at the University of Toronto, diving deep into the world of algorithms, data structures, and programming paradigms. Alongside my academic pursuits, I'm interning at Skysuite.ai, where I'm gaining valuable real-world experience in the realm of artificial intelligence and machine learning.
+					
+					In addition to my internship, I'm also actively involved in giving back to the community. I volunteer as a web developer at STEM Canada, where I contribute to projects aimed at fostering interest and education in science, technology, engineering, and mathematics. Moreover, I serve as the Human Resources Vice President at UTMSAM (University of Toronto Society of Algorithmic Modeling), where I facilitate the growth and development of our organization's members.
+					
+					Beyond the world of bits and bytes, you'll often find me immersed in my hobbies. I'm an avid reader, constantly seeking new perspectives and knowledge. Music holds a special place in my heart, and I enjoy expressing myself through singing. To balance out my cerebral pursuits, I'm passionate about fitness and make it a priority to work out regularly.
+					
+					Coding isn't just a career path for me; it's a passion. I'm particularly fascinated by the possibilities that machine learning and AI offer, and I'm always eager to explore new techniques and applications in this field.
+					
+					Once again, thank you for visiting my page. Feel free to explore and reach out—I'm excited to connect with fellow enthusiasts, learners, and collaborators!</p>
+				</div>
 			</div>
-			<div class="col">
-				<div class="title-2">backend</div>
-				<br>
-				<div>django</div>
-				<div>python</div>
-				<div>java</div><br>
+
+			<div class="resume-area">
+				<a href="Judy_Hsu_resume.pdf" target="_blank" rel="noopener noreferrer"></a>
 			</div>
-			<div class="col">
-				<div class="title-2">tools</div><br>
-				<div>github</div>
+		</div>
+	
+		<div class="background"></div>
+
+		<div class="coding-area" id="coding">
+
+			<h1>Coding</h1>
+
+			<div class="project">
+				<a href="http://github.com/judyhsu.io" target="_blank" rel="noopener noreferrer">
+					<img src="https://picsum.photos/200/200" alt="">
+				</a>
+				<div class="project-text">
+					<h2>Navigating Huarongdao</h2>
+					<h3>Python, State Search Algorithms</h3>
+					<p>
+						Ever tried cracking the Huarongdao puzzle? Back in elementary school, I'd spend hours immersed in it, relishing every challenge. In this showcase, I share how I conquered it with DFS and A* Search. I meticulously modeled each piece, creating a dynamic puzzle board. Tracking states was key for success. DFS explored every nook, while A* Search found the best routes. It's about more than a game—it's a nod to my Taiwanese roots, embracing cultural heritage. So, if you're seeking someone to tackle challenges with enthusiasm and creativity, let's chat and explore exciting opportunities together!
+					</p>	
+				</div>		
+			</div>
+
+			<div class="project">
+				<a href="http://github.com/judyhsu.io" target="_blank" rel="noopener noreferrer">
+					<img src="https://picsum.photos/200/200" alt="">
+				</a>
+				
+				<div class="project-text">
+					<h2>City Classification Machine Learning Model</h2>
+					<h3>Python, Numpy, Sklearn, Matplotlib</h3>
+			
+					<p>
+
+						Dive into the world of machine learning with my City Classification project. Leveraging Python's robust libraries such as Numpy, Sklearn, and Matplotlib, I crafted a cutting-edge KNN classifier. This model exhibits exceptional generalization capabilities, achieving an impressive 73 percent accuracy on unseen datasets.
+
+						Throughout the project, I meticulously evaluated and fine-tuned various models, including decision trees and MLP, showcasing my proficiency in machine learning methodologies. Advanced techniques in hyperparameter tuning were employed to optimize model performance, demonstrating not only a mastery of machine learning but also my Python programming prowess. Join me on this journey of data-driven discovery!
+					</p>
+				</div>
+			</div>
+
+			<div class="spacing"></div>
+			<div class="project">
+				<a href="http://github.com/judyhsu.io" target="_blank" rel="noopener noreferrer">
+					<img src="https://picsum.photos/200/200" alt="">
+				</a>
+				<div class="project-text">
+				<h2>Game Server</h2>
+				<h3>Linux, C, Bash</h3>
+				<p>
+					Utilizing advanced socket programming techniques in C, I created a robust server capable of seamlessly handling communication between 10+ clients and the server, ensuring real-time gameplay and interaction.
+
+					To streamline the development process, I engineered a bespoke makefile system, optimizing compilation across multiple files. This system not only enhanced scalability and adaptability but also showcased my expertise in Linux and Bash environments. Join me as we explore the intricacies of game server development and unlock new realms of multiplayer gaming experiences!			</p></div>
+				</div>
+
+			<div class="spacing"></div>
+
+			<div class="project">
+				<a href="http://github.com/judyhsu.io" target="_blank" rel="noopener noreferrer">
+					<img src="https://picsum.photos/200/200" alt="">
+				</a>
+				<div class="project-text">
+					<h2>Adventure - Graphic Game</h2>
+					<h3>Java, JavaFX, GitHub Git</h3>
+					<p>
+					
+
+					Embark on an exhilarating adventure through my Graphic Game project! Using Java and JavaFX, I crafted an innovative Graphical User Interface (GUI) that seamlessly integrates Object-Oriented Programming (OOP) principles with advanced design patterns like Builder, Decorator, and Strategy.
+
+					Delving deeper into software architecture, I implemented Inversion of Control, Inheritance, Composition, and Polymorphism, ensuring a robust and scalable solution. Through effective collaboration and agile development methodologies, my team and I presented a captivating 10-minute demo, showcasing the game's extensive functionalities. Join me as we explore the exciting world of game development and unleash our creativity!
+					</p>	
+				</div>
+			</div>
+			<div class="spacing"></div>	
+
+			<div class="project">
+				<a href="http://github.com/judyhsu.io" target="_blank" rel="noopener noreferrer">
+					<img src="https://picsum.photos/200/200" alt="">
+				</a>
+				<div class="project-text">
+					<h2>Unix Shell – tsh (Tiny Shell)</h2>
+					<h3>C, Linux, Bash</h3>
+					<p>
+						Experience the intricacies of Unix systems through my tsh (Tiny Shell) project. Pioneering its development, I crafted a sophisticated Unix shell program, delving deep into process control, signals, and pipes. With mastery in C programming and Unix environment intricacies, I implemented features like program execution, job control, and input/output redirection. Through exhaustive testing using diverse trace files, I ensured flawless behavior and Unix standards compatibility. Join me as we unravel the mysteries of Unix systems and explore the world of shell programming!
+					</p>
+				</div>
+			</div>
+			<div class="spacing"></div>
+		</div>
+		
+		<div class="background">
+			<a href="image/judy_hsu_resume.pdf" download="judy_hsu_resume"><button class="btn"><i class="fa fa-download"></i> Download Resume</button></a>
+		</div>
+
+		<div id="connect" class="connect">
+			<h1>Contact Me</h1>
+			<br>
+			<div class="connect-text">
+				<div >judyh.hsu@mail.utoronto.ca</div>
+				<div class="icons">
+					<a href="judyh.hsu@mail.utoronto.ca" target="_blank"><i class="fa-solid fa-envelope fa-2xl"></i></a><br>
+					<a href="https://www.linkedin.com/in/he-yun-hsu-6810b9234/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a><br>
+					<a href="https://github.com/HsuJudy/hsujudy.github.io" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a><br>
+				</div>
 			</div>
 			
 		</div>
-		
-		<br>
-		<div class='view row'>
-			<div class='col' id="experiences">
-				<div class="title">Experiences</div>
-			<br>
-			<a class="company" href="">Google Developers Student Club UTM</a>
-			<div class="position">Internal Coordinator</div>
-			<div class="time">2021-2022</div>
-			<div>
-				<ul>
-					<li>Provided oversight of the club to 100+ students during tabling events
-					<li> Lead meetings on topics like artificial intelligence and information security for 25+ club members
-					<li> Managed progress and goals across executive teams and the associate team
-				</ul>
-			</div>
-		
-			</div>
-			<div class="col" id="connect">
-				<div class="title">Connect!</div>
-				<br>
-				<div class="col">judy98122@gmail.com<br></div>
-				<a class="col" href="https://www.instagram.com/hsuheyun/" target="_blank">--> Instagram</a><br>
-				<a class="col" href="https://www.linkedin.com/in/he-yun-hsu-6810b9234/" target="_blank">--> Linkedin</a><br>
-			</div>
-		</div>
-		<!-- <div class="row footer">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis cumque aperiam voluptas architecto ex cupiditate ut eius nisi a ipsum voluptates quasi asperiores illo odio, accusamus dolorem, doloribus, expedita ipsa.</div> -->
-		
+
+	</div>
+	</div>		
+	
+	<div class="background"></div>
 	</body>
+	
 </html>

@@ -15,14 +15,25 @@
 #intro{
     /* border: solid; */
     height: 100vh;
-    font-size: 36px;
+    /* font-size: 36px; */
     font-weight: 300;
 }
+#banner{
+    /* border: solid; */
+    height: 80vh;
+    font-size: 36px;
+    font-weight: 300;
+    background-image: url("./image/background.jpg");
+    background-size: cover;
+}
 
+#banner-img{
+    height: 50vh;
+}
 #profile-pic{
     padding-top: 15vh;
     padding-left: 5vw;
-    margin-top: auto;
+    /* margin-top: auto; */
 }
 
 #languages{
@@ -40,3 +51,26 @@
     height: 60vh;
 }
 
+a{
+    text-decoration: none;
+    color: black
+}
+
+li{
+    text-decoration: none;
+}
+
+/* div{
+    border: solid
+} */
+/* .view{
+    height: 100vh;
+    width: 100vw;
+} */
+.content{
+    display: inline-flexbox
+}
+
+.footer{
+    padding-block: 15vh;
+}
